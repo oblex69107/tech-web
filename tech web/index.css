@@ -1,0 +1,161 @@
+body {
+  text-align: center;
+  margin: 0;
+  padding: 0;
+}
+header {
+  background:orange;
+ background:linear-gradient(top, #fb0, #f50);
+ background:-moz-linear-gradient(top, #fb0, #f50);
+ background:-webkit-linear-gradient(top, #fb0, #f50);
+ background:-o-linear-gradient(top, #fb0, #f50);
+ background:-ms-linear-gradient(top, #fb0, #f50); 
+}
+form {
+  background-color: lightgray;
+}
+footer {
+  background-color: black;
+  color: white;
+}
+div {
+  animation-name: image;
+  animation-iteration-count: infinite;
+  animation-timing-function: ease-in-out;
+  animation-duration: 3s;
+}
+@keyframes image{
+  from {background-image: url('bot.jpg');}
+  50% {background-image: url('earbud.jpg');}
+  60% {background-image: url('smart glasses.jpg');}
+  70% {background-image: url('smart phone.jpg');}
+  100% {background-image: url('smart watch.jpg');}
+}
+button {
+  border: 2px solid black;
+  background-color: transparent;
+  padding: 10px;
+}
+@media screen and (min-wdth:767px) {
+  body {
+    text-align: center;
+    margin: 0;
+    padding: 0;
+  }
+  header {
+    background:orange;
+   background:linear-gradient(top, #fb0, #f50);
+   background:-moz-linear-gradient(top, #fb0, #f50);
+   background:-webkit-linear-gradient(top, #fb0, #f50);
+   background:-o-linear-gradient(top, #fb0, #f50);
+   background:-ms-linear-gradient(top, #fb0, #f50); 
+  }
+  form {
+    background-color: lightgray;
+  }
+  footer {
+    background-color: black;
+    color: white;
+  }
+  div {
+    animation-name: image;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+    animation-duration: 3s;
+  }
+  @keyframes image{
+    from {background-image: url('bot.jpg');}
+    50% {background-image: url('earbud.jpg');}
+    60% {background-image: url('smart glasses.jpg');}
+    70% {background-image: url('smart phone.jpg');}
+    100% {background-image: url('smart watch.jpg');}
+  }
+  button {
+    border: 2px solid black;
+    background-color: transparent;
+    padding: 10px;
+  }
+  
+}
+@media screen and (min-width: 1024px) {
+  body {
+    text-align: center;
+    margin: 0;
+    padding: 0;
+  }
+  header {
+    background:orange;
+   background:linear-gradient(top, #fb0, #f50);
+   background:-moz-linear-gradient(top, #fb0, #f50);
+   background:-webkit-linear-gradient(top, #fb0, #f50);
+   background:-o-linear-gradient(top, #fb0, #f50);
+   background:-ms-linear-gradient(top, #fb0, #f50); 
+  }
+  form {
+    background-color: lightgray;
+  }
+  footer {
+    background-color: black;
+    color: white;
+  }
+  div {
+    animation-name: image;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+    animation-duration: 3s;
+  }
+  @keyframes image{
+    from {background-image: url('bot.jpg');}
+    50% {background-image: url('earbud.jpg');}
+    60% {background-image: url('smart glasses.jpg');}
+    70% {background-image: url('smart phone.jpg');}
+    100% {background-image: url('smart watch.jpg');}
+  }
+  button {
+    border: 2px solid black;
+    background-color: transparent;
+    padding: 10px;
+  }
+  
+}
+@media screen and (min-width:768px) and (max-width: 1023px){
+  body {
+    text-align: center;
+    margin: 0;
+    padding: 0;
+  }
+  header {
+    background:orange;
+   background:linear-gradient(top, #fb0, #f50);
+   background:-moz-linear-gradient(top, #fb0, #f50);
+   background:-webkit-linear-gradient(top, #fb0, #f50);
+   background:-o-linear-gradient(top, #fb0, #f50);
+   background:-ms-linear-gradient(top, #fb0, #f50); 
+  }
+  form {
+    background-color: lightgray;
+  }
+  footer {
+    background-color: black;
+    color: white;
+  }
+  div {
+    animation-name: image;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+    animation-duration: 3s;
+  }
+  @keyframes image{
+    from {background-image: url('bot.jpg');}
+    50% {background-image: url('earbud.jpg');}
+    60% {background-image: url('smart glasses.jpg');}
+    70% {background-image: url('smart phone.jpg');}
+    100% {background-image: url('smart watch.jpg');}
+  }
+  button {
+    border: 2px solid black;
+    background-color: transparent;
+    padding: 10px;
+  }
+  
+} 
